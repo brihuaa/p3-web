@@ -1,4 +1,3 @@
-
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 type Book = {
@@ -53,6 +52,8 @@ export default function SearchPage({ data }: PageProps<{ books: Book[]; query: s
             />
             <button type="submit" class="search-button">Buscar</button>
           </form>
+
+          <a href="/" class="back-to-home">🔙 Volver a la página principal</a>
 
           {query && books.length === 0 && (
             <p class="no-results">No se encontraron libros con ese título.</p>

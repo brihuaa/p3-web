@@ -1,5 +1,3 @@
-
-
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 type BookDetails = {
@@ -81,6 +79,7 @@ export default function BookPage({ data }: PageProps<BookDetails>) {
               </p>
             )}
           </div>
+          <a href="/" class="back-to-home">🔙 Volver a la página principal</a>
         </main>
       </body>
     </div>

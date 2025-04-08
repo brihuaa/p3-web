@@ -134,3 +134,43 @@ h1 {
   text-decoration: underline;
 }
 
+/* Botón de búsqueda mejorado */
+.search-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+.search-button:focus {
+  outline: none;
+  border: 2px solid #005fa3;
+}
+
+.back-to-home {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.6rem 1.2rem;
+  background-color: #0077cc;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: flex;
+}
+
+.back-to-home:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}

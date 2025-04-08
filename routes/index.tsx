@@ -58,6 +58,7 @@ export default function Home({ data }: PageProps<{ books: Book[] }>) {
         <header>
           <h1>Libros Destacados</h1>
         </header>
+        <a href="/search" class="search-link">🔍 Buscar libros</a>
         <main class="grid">
           {data.books.map((book) => {
             const coverUrl = book.coverId
