@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "adrinbrihue-p3-web-28"
+          project: "adrinbrihue-p3-web-74"
           entrypoint: "main.ts"
           root: "."
           
